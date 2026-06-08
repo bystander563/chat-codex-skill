@@ -1,6 +1,6 @@
 # Chat
 
-A Codex skill for turning chat screenshots or pasted conversations into speaker summaries, decisions, action items, schedule changes, and risks.
+Organize chat screenshots or pasted conversations into speaker summaries, decisions, action items, schedule changes, and risks.
 
 It extracts who said what, separates the user's tasks from the other party's tasks, and avoids repeating passwords or access credentials.
 
