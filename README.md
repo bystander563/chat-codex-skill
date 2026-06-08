@@ -1,22 +1,24 @@
 # Chat
 
-A Codex skill for organizing chat screenshots or pasted conversations into:
+A Codex skill for turning chat screenshots or pasted conversations into speaker summaries, decisions, action items, schedule changes, and risks.
 
-- who said what;
-- confirmed decisions and schedule changes;
-- the user's action items and the other party's action items;
-- unresolved questions, dependencies, and risks;
-- redacted summaries that do not repeat passwords or access credentials.
+It extracts who said what, separates the user's tasks from the other party's tasks, and avoids repeating passwords or access credentials.
 
 It supports WeChat, QQ, DingTalk, Feishu, Slack, Teams, WhatsApp, Telegram, SMS, and similar messaging apps.
 
 ## Install
 
-```text
-Install the chat skill from https://github.com/bystander563/chat-codex-skill
+```bash
+npx skills add https://github.com/bystander563/chat-codex-skill --skill chat -g -a codex -y
 ```
 
-After installation, invoke it with:
+Alternatively, ask Codex:
+
+```text
+$skill-installer install https://github.com/bystander563/chat-codex-skill
+```
+
+Restart Codex after installation, then invoke it with:
 
 ```text
 Use $chat to organize these chat screenshots or pasted messages.
