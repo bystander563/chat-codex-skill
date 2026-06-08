@@ -1,0 +1,4 @@
+interface:
+  display_name: "聊天记录整理"
+  short_description: "整理聊天截图或粘贴文本，提取双方发言、决定、时间安排和我的待办"
+  default_prompt: "Use $chat to organize these chat screenshots or pasted messages into who said what, decisions, and my action items."
