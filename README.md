@@ -1,5 +1,7 @@
 # Chat
 
+[![skills.sh](https://skills.sh/b/bystander563/chat-codex-skill)](https://skills.sh/bystander563/chat-codex-skill)
+
 Organize chat screenshots or pasted conversations into speaker summaries, decisions, action items, schedule changes, and risks.
 
 It extracts who said what, separates the user's tasks from the other party's tasks, and avoids repeating passwords or access credentials.
